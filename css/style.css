@@ -924,6 +924,43 @@ footer img {
     text-decoration: none;
 }
 
+
+.top-barp {
+    color: #333;
+    padding: 150px 0 150px;
+    background: -webkit-linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/02.jpg);
+    background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/02.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    text-align: center;
+}
+
+.top-barp h1 {
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #999;
+    line-height: 50px;
+}
+
+.top-barp p {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #777;
+}
+
+.top-barp p a {
+    color: #777;
+}
+
+.top-barp p a:hover,
+.top-barp p a:focus {
+    color: #555;
+    text-decoration: none;
+}
+
 .social-ul {
     list-style: none;
     display: inline-block;
