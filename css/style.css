@@ -901,7 +901,7 @@ footer img {
     text-align: center;
 }
 
-.top-bar h1, .top-barp h1 {
+.top-bar h1, .top-barlola h1, .top-barp h1 {
     font-size: 60px;
     
     font-weight: 700;
@@ -909,20 +909,22 @@ footer img {
     line-height: 50px;
 }
 
-.top-bar p, .top-barp p  {
+.top-bar p, .top-barlola p, .top-barp p  {
     font-size: 20px;
     text-transform: uppercase;
     font-weight: 500;
     color: #777;
 }
 
-.top-bar p a, .top-barp p a {
+.top-bar p a, .top-barlola p a, .top-barp p a {
     color: #777;
 }
 
 .top-bar p a:hover, 
+.top-barlola p a:hover,
 .top-barp p a:hover,
-.top-barp p a:focus, 
+.top-barp p a:focus,
+.top-barlola p a:focus, 
 .top-bar p a:focus {
     color: #555;
     text-decoration: none;
@@ -934,6 +936,16 @@ footer img {
     padding: 150px 0 150px;
     background: -webkit-linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/02.jpg);
     background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/02.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    text-align: center;
+}
+.top-barlola {
+    color: #333;
+    padding: 150px 0 150px;
+    background: -webkit-linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/Lolaberry/portadaazul.jpg);
+    background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/Lolaberry/portadaazul.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
