@@ -92,12 +92,26 @@ h1 {
 
 h3 {
     color: #393939;
+    
 }
 
 h5 {
     color: #ffbf00;
 }
 
+.h52 {
+    color: #383738;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.8;
+}
+
+h6 {
+    color: #79787a;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.4;
+}
 
 /* preloader
 ==================================================*/
