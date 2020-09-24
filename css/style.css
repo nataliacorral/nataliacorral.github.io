@@ -71,10 +71,17 @@ a {
     height: 30px
 }
 
+.h-20 {
+    height: 20px
+}
+
 .h-10 {
     height: 10px
 }
 
+.h-15 {
+    height: 15px;
+}
 .color {
     color: #ffbf00;
     font-size: 11px;
@@ -95,15 +102,19 @@ h3 {
     
 }
 
+h32 {
+    color: #616161;
+    font-size: 13px;
+}
+
 h5 {
     color: #ffbf00;
 }
 
-.h52 {
-    color: #383738;
+h52 {
+    color: #f88425;
+    font-weight: 500;
     font-size: 14px;
-    font-family: 'Poppins', sans-serif;
-    line-height: 1.8;
 }
 
 h6 {
@@ -695,7 +706,7 @@ b i:last-child {
     }
 }
 
-#nataliamargin {    margin: 15px;
+#nataliamargin {    margin: 40px;
 
 }
 /* portfolio section
@@ -1097,7 +1108,8 @@ textarea:focus {
 }
 
 .contact-info {
-    margin-top: 20px;
+    margin-top: 0px;
+    margin: 40px;
 }
 
 .contact-info i {
