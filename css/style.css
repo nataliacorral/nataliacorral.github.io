@@ -926,7 +926,7 @@ footer img {
     text-align: center;
 }
 
-.top-bar h1, .top-barcuisine h1, .top-barlola h1, .top-barhyedra h1, .top-barpet h1, .top-barp h1 {
+.top-bar h1, .top-barcuisine h1, .top-barlola h1, .top-barnumi h1, .top-barhyedra h1, .top-barpet h1, .top-barp h1 {
     font-size: 60px;
     
     font-weight: 700;
@@ -934,23 +934,25 @@ footer img {
     line-height: 50px;
 }
 
-.top-bar p, .top-barcuisine p, .top-barlola p, .top-barhyedra p, .top-barpet p, .top-barp p  {
+.top-bar p, .top-barcuisine p, .top-barnumi p, .top-barlola p, .top-barhyedra p, .top-barpet p, .top-barp p  {
     font-size: 20px;
     text-transform: uppercase;
     font-weight: 500;
     color: #777;
 }
 
-.top-bar p a, .top-barlola p a, .top-barcuisine p a, .top-barhyedra p a, .top-barpet p a, .top-barp p a {
+.top-bar p a, .top-barlola p a, .top-barnumi p a, .top-barcuisine p a, .top-barhyedra p a, .top-barpet p a, .top-barp p a {
     color: #777;
 }
 
 .top-bar p a:hover, 
+.top-barnumi p a:hover,
 .top-barlola p a:hover,
 .top-barhyedra p a:hover,
 .top-barpet p a:hover,
 .top-barp p a:hover,
 .top-barhyedra p a:focus,
+.top-barnumi p a:focus,
 .top-barp p a:focus,
 .top-barlola p a:focus, 
 .top-barpet p a:focus, 
@@ -964,6 +966,17 @@ footer img {
     padding: 150px 0 150px;
     background: -webkit-linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/Cuisine/PortCuisine.png);
     background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/Cuisine/PortCuisine.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    text-align: center;
+}
+
+.top-barnumi {
+    color: #333;
+    padding: 150px 0 150px;
+    background: -webkit-linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/portadanumi.png );
+    background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/portadanumi.png);
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
